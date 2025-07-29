@@ -5,7 +5,10 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030; 
+}
 
 header {
     background: #2965f1;
