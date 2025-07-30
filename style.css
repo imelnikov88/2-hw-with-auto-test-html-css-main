@@ -79,12 +79,12 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0px 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -127,13 +127,13 @@ select {
 
 table {
     border-collapse: collapse; 
+    font-size: 14px;
     /* Стили для таблицы */
 }
 
 th, td {
     border: 1px solid #95a1bb;
     padding: 12px 15px;
-    font-size: 16px;
     /* Стили для ячеек таблицы */
 }
 
