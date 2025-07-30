@@ -33,7 +33,6 @@ header span {
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
@@ -41,7 +40,6 @@ header span {
 .main-text {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
     /* Стили для текста в первой секции */
 }
 
@@ -65,7 +63,6 @@ select {
     background: rgba(255, 255, 255, 0);
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     background: url(./assets/ep_arrow-down.svg) no-repeat right 12px top 50%;
     appearance: none;
     /* Стили для выпадающего списка */
@@ -74,7 +71,6 @@ select {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
@@ -82,7 +78,6 @@ select {
 .frameworks-list {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
     padding-left: 20px;
     /* Стили для маркированного списка во второй секции */
@@ -96,7 +91,6 @@ select {
 .label {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
@@ -144,9 +138,15 @@ th, td {
 }
 
 footer {
+    background: rgba(163, 167, 255, 0.3);
+    padding: 25px 0;
     /* Стили для футера */
 }
 
 .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
 }
